@@ -5,42 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>revisão</title>
     <style>
-        td, th{
-            vertical-align: bottom;
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 5px;
             text-align: center;
-            border:1px solid black
+
         }
         table{
-            
-            height: 100px;
-            width: 300px;
+            height: 400px;
+            width: 400px;
             border-collapse: collapse;
         }
-        tbody > tr:nth-child(2n){
-            background-color: grey;
+        tr:nth-child(2n){
+            background-color: gray;
         }
-        
     </style>
 </head>
 <body>
-    <table>
-        <caption>coisas de cozinha</caption>
-        <tbody>
-            <tr>
-                <th>comidas</th>
-            </tr>
-            <tr>
-                <td>arroz</td>
-                <td>feijão</td>
-                <td>carne</td>
-            </tr>
-            <tr>
-                <td>molho</td>
-            </tr>
-            <tr>
-                <td>milho</td>
-            </tr>
-        </tbody>
-    </table>
+   <table>
+    <caption>nomes e gostos instrumentais</caption>
+    <thead>
+        <tr>
+            <th scope="col">ordem</th>
+            <th scope="col">nome</th>
+            <th scope="col">idade</th>
+            <th scope="col">instrumento</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>joão nepchyi</td>
+            <td>23</td>
+            <td>guitarra</td>
+        </tr>
+         <tr>
+            <td>2</td>
+            <td>celeste hinojosa</td>
+            <td>20</td>
+            <td>bateria</td>
+        </tr>
+         <tr>
+            <td>3</td>
+            <td>vini</td>
+            <td>21</td>
+            <td>guitarra</td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>pedro</td>
+            <td>28</td>
+            <td>guitarra</td>
+        </tr>
+         <tr>
+            <td>5</td>
+            <td>paula</td>
+            <td>30</td>
+            <td>teclado</td>
+        </tr>
+         <tr>
+            <td>6</td>
+            <td>rafaela</td>
+            <td>30</td>
+            <td>microfone</td>
+        </tr>
+         <tr>
+            <td>7</td>
+            <td>rafael</td>
+            <td>40</td>
+            <td>microfone</td>
+        </tr>
+         <tr>
+            <td>8</td>
+            <td>jean</td>
+            <td>23</td>
+            <td>violão</td>
+        </tr>
+         <tr>
+            <td>9</td>
+            <td>mateus</td>
+            <td>23</td>
+            <td>violão</td>
+        </tr>
+         <tr>
+            <td>10</td>
+            <td>wesley</td>
+            <td>28</td>
+            <td>bateria</td>
+        </tr>
+         <tr>
+            <td>11</td>
+            <td>mel</td>
+            <td>24</td>
+            <td>teclado</td>
+        </tr>
+         <tr>
+            <td>12</td>
+            <td>jaison</td>
+            <td>28</td>
+            <td>bateria</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="row">total de idade</th>
+            <td colspan="3">xxx</td>
+        </tr>
+    </tfoot>
+   </table>
 </body>
 </html>
