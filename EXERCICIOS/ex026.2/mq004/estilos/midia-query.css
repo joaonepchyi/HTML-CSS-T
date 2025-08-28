@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*todas as demais midias*/
+
+/* não criei o do celular, pois o meu index já está programado para celular*/
+@media print{
+
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+   body{
+    background-image: url(../imagens/back-pc.jpg);
+   }
+}
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+}
