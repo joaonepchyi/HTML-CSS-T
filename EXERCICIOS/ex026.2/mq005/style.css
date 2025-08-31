@@ -16,7 +16,19 @@ header > h1{
     text-align: center;
 }
 menu{
+    display: none;
+}
+#menu{
+    background-color: rgb(38, 38, 38);
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#menu:hover{
+    background-color: white;
+    color:black
 }
 
 menu > ul{
@@ -42,6 +54,7 @@ main{
     margin: auto;
     text-align: justify;
     border-radius: 10px;
+    margin-top: 15px;
 }
 main > article > h2{
     padding: 10px;
